@@ -23,7 +23,7 @@ def prediction():
 
     if prediction[0] == 0:
         prediction = "Iris-setosa"
-    '''elif prediction[0] == 0:'''
+    elif prediction[0] == 0:
         prediction = "Iris-versicolor"
     else:
         prediction = "Iris-virginica"
@@ -33,5 +33,7 @@ def prediction():
 
 
 #main Function
-app.run(debug=True)
+if__name__=='__main__':
+    app.run(debug=True)
+
 
